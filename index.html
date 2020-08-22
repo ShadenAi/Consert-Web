@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./apps.js" defer></script>
+    <title>Consert</title>
+</head>
+<body>
+
+    <div class="start" id="home">
+        <nav>
+            <h1>consert</h1>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#events">EVENTS</a></li>
+                <li><a href="#more">MORE</a></li>
+            </ul>
+        </nav>
+
+        <div class="start-text">
+            <h2>Make an  <br> unforgetable night</h2>
+        </div>
+        <div class="btn-wrapper">
+        <a href="#buy-ticket"><button>Get your ticket now</button></a>
+        <div class="burger">
+            <img src="./img/menu-btn.png" width="40px" alt="">
+        </div>
+    </div>
+    </div>
+
+    <div class="second">
+        <div class="slider">
+            <div id="img">
+              <img src="./img/slide1.jpg">
+            </div>
+          </div>
+          <div class="box-img">
+              <img src="./img/box-bg.png" alt="">
+            </div>
+    </div>
+
+    <div class="third" id="events">
+        <div class="box-h2"><h2>OUR EPIC EVENTS</h2></div>
+        <div class="event-container">
+            <div class="ev1">
+                <img src="./img/event1.jpg" width="262px" height="396px" alt="">
+                <div class="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fuga.</p>
+            </div>
+            </div>
+            <div class="ev2">
+                <img src="./img/event2.jpg" width="262px" alt="">
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fuga.</p>
+                </div>
+            </div>
+                <div class="ev3">
+                    <img src="./img/event3.jpg" width="262px" alt="">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fuga.</p>
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+
+    <div class="fourth" id="buy-ticket">
+
+        <div class="form-wrapper">
+            <header class="form-header">
+                <h2>BUY A TICKET</h2>
+            </header>
+            <div class="errorMsg"></div>
+            <form id="form">
+                <div class="name-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Full name">
+                </div>
+                    <div class="email-form">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email@example.com">
+                    </div>
+                    <div class="ticket-form">
+                        <label for="ticket">Ticket</label>
+                        <select name="ticket" id="ticket">
+                            <option value="default">Choose a ticket</option>
+                            <option value="type1">Arcitict monkeys Fri at 9:00pm</option>
+                            <option value="type2">Imagine dragons Sat at 8:30pm</option>
+                            <option value="type3">Clean bandit Sun at 9:00pm</option>
+                            
+                        </select>
+                        <div class="quantity-form">
+                            <label for="quantity">quantity</label>
+                            <input type="number" name="quantity" id="quantity">
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+            </div>
+            </form>
+            
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-wrapper">
+            <h5>Conert &copy; 2020</h5>
+            <div class="contact-icons">
+                <img src="./img/email-icon.png" width="30px" alt="">
+                <img src="./img/twitter-icon.png" width="30px" alt="">
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
